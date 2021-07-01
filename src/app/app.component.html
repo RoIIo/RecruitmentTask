@@ -1,0 +1,20 @@
+<div id='components'>
+  <img id='img' src="assets/ChuckNorris.jpg">
+  <div id='joke'>{{joke}}</div>
+  <select name="categories" id="categories">
+    <option *ngFor="let cat of categories">
+       {{cat}}
+    </option>
+    </select>
+    <input type = 'text' (input) = "updateName($event)">
+  <button id= 'submit' (click)="getJokes()">Draw a {{impersonate}} joke</button>
+  <div id = 'plusminus'>
+    <img id='minus' src="assets/minus.jpg" (click)="del()">
+    {{counter}}
+    <img id='plus' src="assets/plus.jpg" (click)="add()">
+    <div id='save'>
+      <button (click)="saveJokes()">Save Jokes</button>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,41 @@
+ #joke{ font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+    place-content: center;
+    box-sizing:border-box;
+    height: 100px;
+    width: 250;
+	color: rgb(41, 41, 114);
+	text-align: center}
+
+
+#components{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    padding-left: 25%;
+padding-right: 25%;
+padding-top: 5%;}
+
+#submit{background-color:rgb(41, 41, 114);
+    color: white;
+    height: 40px;
+        text-align: center;
+        vertical-align: middle;
+    }
+#img { width: auto;
+    height:auto;
+text-align: center;
+vertical-align: middle;
+}
+#plusminus{  display: flex;
+	flex-direction: row;
+padding-top:1%}
+
+#minus { width: 50px;
+          height:  auto;
+        text-align: left;}
+#plus { width: 50px;
+        height:  auto;
+        text-align: left;}
